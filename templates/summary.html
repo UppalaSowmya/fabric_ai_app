@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Summary</title>
+</head>
+<body>
+
+<h1>📄 Fabric Order Summary</h1>
+
+<hr>
+
+<p><strong>Fabric Type:</strong> {{ data.get('fabric', 'Not provided') }}</p>
+<p><strong>GSM:</strong> {{ data.get('gsm', 'Not provided') }}</p>
+<p><strong>Color:</strong> {{ data.get('color', 'Not provided') }}</p>
+<p><strong>Quantity:</strong> {{ data.get('quantity', 'Not provided') }}</p>
+<p><strong>Delivery:</strong> {{ data.get('delivery', 'Not provided') }}</p>
+
+<hr>
+
+<a href="/">⬅ Go Back</a>
+
+</body>
+</html>

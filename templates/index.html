@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fabric Form</title>
+</head>
+<body>
+
+<h2>Fabric Form</h2>
+
+<button onclick="startRecording()">🎤 Speak</button>
+
+<form method="POST" action="/submit">
+    <label>Fabric Type:</label>
+    <input type="text" id="fabric" name="fabric"><br><br>
+
+    <label>GSM:</label>
+    <input type="number" id="gsm" name="gsm"><br><br>
+
+    <label>Color:</label>
+    <input type="text" id="color" name="color"><br><br>
+
+    <label>Quantity:</label>
+    <input type="number" id="quantity" name="quantity"><br><br>
+
+    <label>Delivery:</label>
+    <input type="text" id="delivery" name="delivery"><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
