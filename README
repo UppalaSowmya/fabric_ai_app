@@ -1,24 +1,28 @@
 # AI-Powered Fabric Sourcing Assistant
 
-## Overview
-This project is a voice-enabled web application that converts speech into structured fabric order details.
+## 🚀 Overview
+This project is a voice-enabled web application that converts speech into structured fabric order details using AI.
 
-## Features
-- Voice-to-text using Web Speech API
-- Auto form filling using Python Flask backend
-- Editable form fields
-- Summary page
+---
 
-## Tech Stack
-- Frontend: HTML, JavaScript
-- Backend: Flask (Python)
+## ✨ Features
+- 🎤 Voice-to-text using Web Speech API  
+- 🤖 AI-based extraction using LLM  
+- 📝 Auto form filling  
+- ✏️ Editable fields  
+- 📄 Summary page  
 
-## How to Run
-1. Install dependencies:
-   pip install flask
+---
 
-2. Run:
-   python app.py
+## 🛠️ Tech Stack
+- Frontend: HTML, JavaScript  
+- Backend: Flask (Python)  
+- AI: OpenAI LLM  
 
-3. Open:
-   http://127.0.0.1:5000
+---
+
+## ▶️ How to Run
+
+### 1. Install dependencies
+```bash
+pip install flask openai
